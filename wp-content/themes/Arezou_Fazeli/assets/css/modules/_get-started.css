@@ -1,0 +1,50 @@
+.get-started {
+
+  &__title {
+    text-align: center;
+    color: #666;
+    padding: .8rem 0 1.5rem 0;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    @mixin atMedium {
+      border-bottom: 1px solid $mainOrange;
+    }
+  }
+
+  &__img:hover {
+    box-shadow: 0 2px 2px 2px rgba(0,0,0,.2);
+    transform: scale(1.07);
+
+  }
+
+  &__img {
+    border: solid 2px $mainOrange;
+    border-radius: 4%;
+    transition: all .3s;
+    width: 50%;
+
+    @mixin atSmall {
+      width: 40%;
+    }
+
+    @mixin atMedium {
+      width: 100%;
+    }
+  }
+  
+  &__item {
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+    @mixin atMedium {
+      margin-bottom:0;
+    }
+
+    &__last-item {
+      margin-bottom: 0;
+    }
+  }
+
+}

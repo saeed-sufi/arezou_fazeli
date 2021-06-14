@@ -1,0 +1,24 @@
+.about-me {
+
+  background: url('/assets/images/tulips.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+
+  &__img {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @mixin atMedium {
+      width: 33.33%;
+    }
+
+    &--hidden-till-large {
+      display: none;
+
+      @mixin atMedium {
+        display: block;
+      }
+    }
+  }
+}

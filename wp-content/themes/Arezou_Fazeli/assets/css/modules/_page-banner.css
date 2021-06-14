@@ -1,0 +1,8 @@
+.page-banner {
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 500px;
+  }
+}

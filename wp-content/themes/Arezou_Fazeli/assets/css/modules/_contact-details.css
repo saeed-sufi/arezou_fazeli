@@ -1,0 +1,47 @@
+.contact-details {
+  text-align: center;
+  color: #fff;
+  background-color: $mainLightBlue;
+
+  a {
+    color: #fff;
+    transition: all .3s;
+  }
+
+  a:hover {
+    color: $mainOrange;
+  }
+
+  &__item {
+
+    padding-bottom: 2rem;
+    
+    @mixin atMedium {
+      padding-bottom: 0;
+    }
+  }
+  
+  &__text {
+    padding-top: .1rem;
+    line-height: 1.6;
+  }
+
+  &__text-title {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+
+    &--no-t-padding {
+      padding-top: 0;
+    }
+  }
+
+  &__title {
+    border-bottom: 2px solid $mainOrange;
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  &__text-address {
+    padding-top: .4rem;  
+  }
+}

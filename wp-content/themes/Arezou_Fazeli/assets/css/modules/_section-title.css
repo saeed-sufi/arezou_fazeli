@@ -1,0 +1,31 @@
+.section-title {
+  color: $mainLightBlue;
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 1.8;
+  
+
+  &--right-aligned {
+    text-align: right;
+  }
+  
+  @mixin atSmall {
+    font-size: 1.6rem;
+  }
+  
+  &--no-t-margin {
+
+    @mixin atMedium {
+      margin-top: 0;
+    }
+  }
+
+  &--b-padding-large {
+    margin-bottom: 3rem;
+  }
+
+  &--white {
+    color: #FFF;
+  }
+
+}

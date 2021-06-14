@@ -1,0 +1,61 @@
+.site-header {
+  
+  background-color: rgba($btnBgColor, .7);
+  position: fixed;
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+  z-index: 10;
+
+  &__logo {
+
+    text-align: center;
+   
+    @mixin atMedium {
+      float: none;
+    }
+
+    @mixin atLarge {
+      float: left;
+      top: 20px;
+    }
+
+    @mixin atMedium {
+      left: 50px;
+    }
+
+    a {
+      border-bottom: solid 2px $mainOrange;
+      color: $mainLightBlue;
+      font-size: 1.6rem;
+
+      @mixin atSmall {
+        font-size: 2rem;
+      }
+    }
+
+    p {
+      color: $mainLightBlue;
+      margin-top: .7rem;
+      margin-bottom: 0;
+      font-size: 1rem;
+
+      @mixin atSmall {
+        font-size: 1rem;
+        margin-top: .8rem;
+      }
+
+      @mixin atLarge {
+        margin-bottom: 0;
+      }
+
+      @mixin atMedium {
+        margin-bottom: 1rem;
+      }
+    }
+    
+  }
+
+
+
+
+}

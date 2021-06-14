@@ -1,0 +1,28 @@
+.btn {
+
+  background-color: $mainOrange;
+  padding: .7rem 1.4rem;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transform: translateX(-50%);
+  color: #FFF;
+  box-shadow: 2px 2px 2px #8888;
+  transition: .3s all;
+  
+  @mixin atMedium {
+    font-size: 1.2rem;
+  }
+  &__container {
+    margin-bottom: 1.3rem;
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  &:hover {
+    color: $mainOrange;
+    background-color: $btnBgColor;
+    box-shadow: 3px 3px 2px #8888;
+  }
+  
+}

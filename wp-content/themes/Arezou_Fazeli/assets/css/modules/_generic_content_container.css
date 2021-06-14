@@ -1,0 +1,23 @@
+.generic-content-container {
+
+  &--justified {
+    text-align: justify;
+  }
+  
+  p {
+    line-height: 2;
+    font-size: 1rem;
+    color: #555;
+
+    @mixin atMedium {
+      font-size: 1.1rem;
+    }
+  }
+
+  &--white {
+    p {
+      color: #FFF;
+    }
+  }
+
+}

@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Sahel;
+  src: url("./assets/css/fonts/Sahel.eot");
+  src: url("./assets/css/fonts/Sahel.eot?#iefix") format("embedded-opentype"),
+    url("./assets/css/fonts/Sahel.woff") format("woff"),
+    url("./assets/css/fonts/Sahel.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("./assets/css/fonts/Sahel-Bold.eot");
+  src: url("./assets/css/fonts/Sahel-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/css/fonts/Sahel-Bold.woff") format("woff"),
+    url("./assets/css/fonts/Sahel-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url("./assets/css/fonts/Sahel-Black.eot");
+  src: url("./assets/css/fonts/Sahel-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/css/fonts/Sahel-Black.woff") format("woff"),
+    url("./assets/css/fonts/Sahel-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+font-family: 'IranNastaliq';
+src: url('./assets/css/fonts/IranNastaliq.eot?#') format('eot'),
+url('./assets/css/fonts/IranNastaliq.ttf') format('truetype'),
+url('./assets/css/fonts/IranNastaliq.woff') format('woff');
+}
+

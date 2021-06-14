@@ -1,0 +1,32 @@
+body {
+  /* background-color: $btnBgColor ; */
+  font-family: Sahel, roboto;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  direction: rtl;
+}
+
+.fas, .fab, .fa {
+  color: $mainOrange;
+}
+
+.fab {
+  font-size: 22px;
+}
+
+ul {
+  margin: 0;
+}
